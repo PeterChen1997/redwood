@@ -5885,7 +5885,7 @@ __metadata:
     fastify: 3.28.0
     fastify-http-proxy: 6.2.2
     fastify-raw-body: 3.2.0
-    fastify-static: 4.6.1
+    fastify-static: 4.7.0
     fastify-url-data: 3.0.3
     jest: 27.5.1
     lodash.escape: 4.0.1
@@ -16207,7 +16207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify-static@npm:4.6.1":
+"fastify-static-deprecated@npm:fastify-static@4.6.1":
   version: 4.6.1
   resolution: "fastify-static@npm:4.6.1"
   dependencies:
@@ -16219,6 +16219,16 @@ __metadata:
     readable-stream: ^3.4.0
     send: ^0.17.1
   checksum: 59ac784b90d0da8f09461b9810dbce601fb207e6aa7783c5069ca381b2d1fbc254e3e9f9e61b4b6d02345431de812ec01fe1da346e542b99944f7a6933eb2bb4
+  languageName: node
+  linkType: hard
+
+"fastify-static@npm:4.7.0":
+  version: 4.7.0
+  resolution: "fastify-static@npm:4.7.0"
+  dependencies:
+    fastify-static-deprecated: "npm:fastify-static@4.6.1"
+    process-warning: ^1.0.0
+  checksum: 549b487d0519bd3c4bda656396c1d0efca953682547c43a4fc241343e79ef615a326e6bf28cecf3295ac0424ebfd840b352c33bb34bf0004efef989eacddbe35
   languageName: node
   linkType: hard
 
